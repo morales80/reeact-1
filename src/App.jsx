@@ -1,8 +1,13 @@
-import './App.css'
 
 function App() {
   return (
-    <h1>hola UTSH</h1>
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
+          <div className="h1 mt-2 text-center alert alert-success">Hola UTSH</div>
+        </div>
+      </div>
+    </div>
   )
 }
 
