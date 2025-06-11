@@ -1,6 +1,7 @@
 import Ejercicio01 from "./components/ejercicio01"
 import BotonGeneral from "./components/BotonGeneral"
 import Columna from "./components/Columna"
+import Ejercicio02 from "./components/Ejercicio02"
 function App() {
   return (
     <div className="container">
@@ -13,7 +14,9 @@ function App() {
           <br />
           <BotonGeneral/>
           <br />
-          <Columna/>
+      <Columna />
+      <br />
+      <Ejercicio02 />
     </div>
     //mandando a llamar componente externo
   )
